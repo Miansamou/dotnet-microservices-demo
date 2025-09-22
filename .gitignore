@@ -1,0 +1,43 @@
+﻿# Build
+bin/
+obj/
+out/
+*.log
+
+# Rider / VS
+.idea/
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Resharper
+_ReSharper*/
+*.DotSettings.user
+
+# VS Code
+.vscode/
+
+# Packages
+*.nupkg
+*.snupkg
+*.nuspec
+*.psmdcp
+packages/
+
+# Coverage / Test
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+
+# Docker
+*.pid
+*.seed
+.env
+**/docker-compose.override.yml
+
+# OS
+.DS_Store
+Thumbs.db
